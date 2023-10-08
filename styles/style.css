@@ -32,7 +32,6 @@
   width: 142px;
   height: 105px;
   margin-right: 140px;
-  background: url(../images/logo-black.svg) no-repeat;
 }
 
 .address {
@@ -69,7 +68,6 @@
   flex-direction: column;
   gap: 20px;
   font-weight: 700;
-  font-size: 0;
   font-size: 100px;
   line-height: 100%;
   text-transform: uppercase;
