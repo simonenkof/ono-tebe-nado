@@ -11,28 +11,24 @@
   </head>
   <body>
     <header class="header">
-      <nav clas="header__menu">
+      <nav>
         <ul type="circle" class="header__links-list">
-          <li class="header__links-list-item header__links-list-item_no-bullit">
+          <li class="header__links-list-item_no-bullit">
             <a href="#" class="header__link">главная</a>
           </li>
-          <li class="header__links-list-item">
+          <li>
             <a href="#" class="header__link header__link_active"
               >посмотреть лоты</a
             >
           </li>
-          <li class="header__links-list-item">
+          <li>
             <a href="#" class="header__link header__link_active">об аукционе</a>
           </li>
         </ul>
       </nav>
-      <div class="header__logo">
-        <img
-          class="header__logo-image"
-          src="./images/logo-black.svg"
-          alt="Логотип"
-        />
-      </div>
+      <a class="header__logo">
+        <img src="./images/logo-black.svg" alt="Логотип" />
+      </a>
       <address class="address">
         <a href="tel:+9 999 555 5555">+9 999 555 5555</a>
         <br />
@@ -41,5 +37,29 @@
         наб. Принсенграхт 263-265, Амстердам
       </address>
     </header>
+
+    <section class="cover">
+      <h1 class="cover__title">
+        <span class="aligned-text">
+          <span>о</span>
+          <span class="spacing_long">но</span>
+        </span>
+        <span class="aligned-text aligned-text_center">
+          <span class="spacing_short">те</span>
+          <span class="spacing_long">бе</span>
+        </span>
+        <span class="aligned-text aligned-text_right">
+          <span>н</span>
+          <span class="spacing_short">ад</span>
+          <span>о</span>
+        </span>
+      </h1>
+      <div class="cover__description">
+        <p class="cover__description-text">
+          Аукцион вещей, в которые никто не верил
+        </p>
+        <button class="bet-button">Сделать ставку</button>
+      </div>
+    </section>
   </body>
 </html>
