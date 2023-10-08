@@ -12,6 +12,8 @@
   font-size: 18px;
   font-style: normal;
   line-height: 24.3px;
+
+  list-style-type: circle;
 }
 
 .header__links-list-item_no-bullit {
