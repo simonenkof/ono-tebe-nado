@@ -29,9 +29,13 @@
 }
 
 .header__logo {
-  width: 142px;
+  width: 148px;
   height: 105px;
   margin-right: 140px;
+}
+
+.header__logo-image {
+  height: 100%;
 }
 
 .address {
@@ -45,7 +49,7 @@
 .cover {
   position: relative;
   width: 1440px;
-  height: 757px;
+  min-height: 757px;
   padding: 165px 50px 18px 50px;
   color: #fff;
   font-weight: 400;
@@ -55,7 +59,7 @@
   background-position-y: center;
 }
 
-.cover::before {
+.overlay::before {
   content: "";
   position: absolute;
   inset: 0;
@@ -123,7 +127,7 @@
   border: 1px solid #fff;
   padding: 12px 32px;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 22px;
   text-transform: uppercase;
   background: none;
@@ -168,13 +172,6 @@
   background-size: cover;
 }
 
-.card::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  background: rgba(0, 0, 0, 0.6);
-}
-
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
 }
@@ -199,7 +196,7 @@
 .card__text {
   position: relative;
   color: #fff;
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 20px;
 }
 
